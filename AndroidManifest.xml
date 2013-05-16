@@ -36,7 +36,9 @@
 			</intent-filter>
 		</receiver>
 		
-        <service android:name=".tools.FetchService" android:enabled="true" android:permission="android.permission.INTERNET">
+        <service android:name=".tools.FetchService" 
+			android:enabled="true" 
+			android:permission="android.permission.INTERNET">
             <intent-filter>
                 <action android:name="com.gesuper.metalprices.action.fetch.service"></action>
                 
